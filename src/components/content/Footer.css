@@ -1,0 +1,8 @@
+.site-footer {
+    background-color:black (151, 218, 236);
+    color:black;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

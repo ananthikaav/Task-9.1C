@@ -1,0 +1,12 @@
+.banner-image img {
+  width: 10%;
+  height: 10%;
+  display: block;
+  border-radius: 8px;
+}
+.banner-image {
+  display: flex;
+  justify-content: center;  
+  align-items: center; 
+  padding-top: 2rem;
+}

@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 24px;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+.navbar-left {
+  flex: 1;
+}
+.site-title {
+  font-weight: bold;
+  font-size: 1.05rem;
+  color: black;
+}
+.navbar-search {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+.navbar-search input {
+  width: 60%;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+.navbar-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 18px;
+}
+.nav-link {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.01rem;
+  padding: 3px 8px;
+}
+.nav-link:hover {
+  background: #eee;
+  border-radius: 3px;
+}

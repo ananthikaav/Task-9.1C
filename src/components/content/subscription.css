@@ -1,0 +1,27 @@
+.subscription-section {
+  padding: 2rem;
+  margin-top: 3rem;
+  background-color: white;
+  text-align: center;
+  border-radius: 8px;
+}
+.subscription-form {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+.subscription-input {
+  padding: 0.5rem;
+  border: 1px solid black;
+  border-radius: 4px;
+  min-width: 250px;
+}
+.subscription-button {
+  padding: 0.5rem 1rem;
+  background-color: rgb(151, 218, 236);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
